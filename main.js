@@ -1,6 +1,7 @@
 function metric() {
 	var weight = document.getElementById('kg').value;
 	var height = document.getElementById('m').value;
+	// formula for bmi using metric system
 	var bmi = (weight / (Math.pow(height, 2))).toFixed(1);
 	
 	if (bmi < 18.5) {
@@ -23,6 +24,7 @@ function metric() {
 function imperial() {
 	var weight = document.getElementById('lb').value;
 	var height = document.getElementById('in').value;
+	// formula for bmi using imperial system
 	var bmi = (Math.abs(weight / (Math.pow(height, 2))) * 703).toFixed(1);
 	
 	if (bmi < 18.5) {
