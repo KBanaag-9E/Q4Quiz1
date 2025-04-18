@@ -1,0 +1,52 @@
+body {
+	font-family: fredoka;
+	background-color: #C9E4CA;
+	text-align: center;
+}
+
+div {
+	background-color: #87BBA2;
+	border-radius: 10px;
+}
+
+a {
+	color: #3B6064;
+}
+
+.nav-link {
+	color: black;
+}
+
+img {
+	width: 40vw;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+label {
+	font-size: 20px;
+}
+
+input {
+	font-size: 20px;
+}
+
+details {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
